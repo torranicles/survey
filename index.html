@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Survey Page</title>
+    <meta charset="utf-8">
+    <meta name="description" content="A required project for freecodecamp Responsive Web Design Certification.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css2?family=Solway&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Sanchez&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="center">
+    <h1 id="title">Anime Survey</h1>
+    <p id="description">Thank you for taking the time to help us gather information.</p>
+    <form id="survey-form">
+        <div class="margins">
+        <label for="name">Name</label>
+        <input class="inputLabel" name="name" type="text" placeholder="Enter your name" required>
+
+        <label for="email">Email</label>
+        <input class="inputLabel" name="email" type="email" placeholder="Enter your email" required> 
+
+        <label for="age">Age 
+            <span>
+                (Optional)
+            </span>
+        </label>
+        <input class="inputLabel" name="Age" type="number" placeholder="Age" min="5" max="100" maxlength="3">
+
+        <label for="preference">Which do you prefer? </label>
+        <select class="inputLabel" name="medium">
+            <option disabled selected>Select medium</option>
+            <option value="Manga">Manga</option>
+            <option value="Anime">Anime (Animated)</option>
+        </select>
+
+        <label for="interests">What type(s) of anime/manga are you interested in?</label>
+        <div class="column">
+            <input type="checkbox" name="like" value="Comedy">
+            <span>Comedy</span>
+            <br>
+            <input type="checkbox" name="like" value="Horror">
+            <span>Horror</span>
+            <br>
+            <input type="checkbox" name="like" value="Fantasy">
+            <span>Fantasy</span>
+            <br>
+            <input type="checkbox" name="like" value="Romance">
+            <span>Romance</span>
+            <br>
+            <input type="checkbox" name="like" value="Kodomo">
+            <span>Kodomo</span>
+            <br>
+            <input type="checkbox" name="like" value="Shōnen">
+            <span>Shonen</span>
+            <br>
+            <input type="checkbox" name="like" value="Shōjo">
+            <span>Shojo</span>          
+            <br>
+            <input type="checkbox" name="like" value="Harem">
+            <span>Harem</span>    
+            <br>
+            <input type="checkbox" name="like" value="Josei">
+            <span>Josei</span>   
+            <br>
+            <input type="checkbox" name="like" value="Mecha">
+            <span>Mecha</span>   
+            <br>
+            <input type="checkbox" name="like" value="Shotacon">
+            <span>Shotacon</span>   
+            <br>
+            <input type="checkbox" name="like" value="Isekai">
+            <span>Isekai</span>   
+            <br>
+            <input type="checkbox" name="like" value="Yaoi">
+            <span>Yaoi</span>   
+            <br>
+            <input type="checkbox" name="like" value="Yuri">
+            <span>Yuri</span>   
+            <br>
+            <input type="checkbox" name="like" value="Drama">
+            <span>Drama</span>   
+            <br>
+            <input type="checkbox" name="like" value="Seinen">
+            <span >Seinen</span>   
+            <br>
+            <input type="checkbox" name="like" value="Slice of Life">
+            <span>Slice of Life</span>   
+            <br>
+        </div>
+
+        <label for="frequency">How often do you watch/read anime/manga?</label>
+        <input type="radio" name="fill" value="Not at all">
+        <span>Not at all</span>
+        <br>
+        <input type="radio" name="fill" value="Sometimes">
+        <span>Sometimes</span>   
+        <br>
+        <input type="radio" name="fill" value="Most of the time">
+        <span>Most of the time</span> 
+        <br>
+        <input type="radio" name="fill" value="Always">
+        <span>Always</span> 
+        
+        <label for="impact">How did anime/manga impact your life?</label>
+        <textarea id="textbox"  placeholder="Share your story here."></textarea>
+
+        <button type="submit" id="submit">Submit</button>
+        </div>
+    </form>    
+</div>
+</body>
+</html>

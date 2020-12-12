@@ -1,0 +1,87 @@
+body {
+    background-image: url("https://wallpaperaccess.com/full/6313.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.center {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#title {
+    font-family: 'Solway', serif;
+    margin-top:70px;
+    text-shadow: -4px 2px 1px white;
+    text-align: center;
+    font-size: 40px;
+}
+
+#description {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    text-shadow: -1px 1px 1px white;
+}
+
+#survey-form {
+    background-color:rgba(75, 75, 75, 0.85);
+    min-width: 50%;
+    height:auto;
+    margin:50px auto;
+    border-radius: .25rem;
+    padding: 20px 0px 40px;
+    color: white;
+    font-size: 16px;
+    font-family: "Solway", serif;
+}
+
+.margins {
+    margin: 0 7%;
+}
+
+.inputLabel  {
+    display:block;
+    padding: 8px 0px 8px 2%;
+    border-radius:.25rem;
+    border-color: darkblue;
+    min-width:90%;
+    font-family: "Sanchez", serif;
+}
+
+label {
+    display:block;
+    padding: 20px 0px 10px;
+    font-size:20px;
+    text-align:left;
+}
+
+.column {
+    column-count: 2;
+    font-family: "Sanchez", serif;
+}
+
+#textbox {
+    border-radius: .25em;
+    border-width: 2px;
+    border-color: darkblue;
+    min-width: 90%;
+    height: 100px;
+    font-family:"Sanchez", serif;
+    padding: 10px 10px 20px 10px;
+}
+
+#submit {
+    width:100%;
+    cursor: pointer;
+    background-color: darkblue;
+    color: white;
+    height:60px;
+    border-color: darkblue;
+    border-radius: .25em;
+    border-width: 2px;
+    font-size:30px;
+    margin-top: 20px;
+}
